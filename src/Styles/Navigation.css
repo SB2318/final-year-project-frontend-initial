@@ -8,11 +8,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0 1rem;
     position: fixed; /*So that our navbar is stayed always.*/
     width:100%;
-    height:90px;
-    z-index: 10;
+    height:80px;
+    z-index: 7;
   }
 
   .nav-menu{

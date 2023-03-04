@@ -1,6 +1,9 @@
 import React,{useState} from 'react';
 import "../Styles/Navigation.css";
 import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faHatChef } from '@fortawesome/free-solid-svg-icons'
+
 
 const Navigation = () => {
 
@@ -13,7 +16,12 @@ const Navigation = () => {
   return (
     <div className="header">
          <Link to="/">
-            <h2>Recipes</h2>
+            
+            <h2>
+           
+             Recipes
+            </h2>
+
         </Link>
         <ul className="nav-menu">
          <li>

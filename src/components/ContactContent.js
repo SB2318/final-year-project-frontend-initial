@@ -5,7 +5,7 @@ import "../Styles/ContactContent.css";
 const ContactContent = () => {
   return (
     <div>
-      Contact
+    
     </div>
   )
 }
