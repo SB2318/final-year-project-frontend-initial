@@ -3,14 +3,13 @@
     width:100%;
     padding: 6rem 0;
     background-color: rgba(19,19,19,0.8);
+    margin: auto;
 }
 
 .footer-container{
-   
-    max-width: 1140px;
     margin: auto;
     display: flex;
-
+    text-align: center;
 }
 
 .left{
@@ -20,8 +19,6 @@
     display:flex;
     flex-direction: column;
     padding: 1rem;
-
-
 }
 
 .location{
@@ -39,10 +36,11 @@
 .right{
 
     height:100%;
-    max-width: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     padding: 1rem;
+    
 }
 
 .social-link{
@@ -57,5 +55,6 @@ h4{
 
 p{
 
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding-bottom: 0.2rem;
 }
