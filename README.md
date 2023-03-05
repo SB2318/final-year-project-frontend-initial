@@ -73,9 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Works:
 
-☑️* Home Page
-* Footer
-* View Full Recipe
+* ☑️Home Page
+* ☑️Footer
 * Recipe
 * Contact
+* View Full Recipe
 * About
