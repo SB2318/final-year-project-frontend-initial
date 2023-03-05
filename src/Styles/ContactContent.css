@@ -1,0 +1,31 @@
+label{
+
+    color: #fff;
+    margin-bottom: 0.5rem;
+
+}
+
+.formContainer{
+    background: url("https://images.unsplash.com/photo-1451188502541-13943edb6acb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGVtYWlsJTIwY29udGFjdCUyMGZvciUyMGRlc2t0b3B8ZW58MHx8MHx8&auto=format&fit=crop&w=1500&q=60");
+    
+}
+
+form{
+
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 1rem;
+    margin: auto;
+    max-width: 600px;
+
+}
+
+form input, form textarea{
+
+    margin-bottom: 1rem;
+    padding: 10px 18px;
+    font-size: 1.2rem;
+    background-color:#fff;
+    border-color: rgba(255,255,255,0.1);
+    color: #f4f4f4;
+}

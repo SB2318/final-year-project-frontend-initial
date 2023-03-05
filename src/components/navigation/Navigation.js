@@ -30,9 +30,9 @@ const Navigation = () => {
          <Link to="/">
            
           <img src="https://media.licdn.com/dms/image/C510BAQE5whJbJz5oGg/company-logo_200_200/0/1585130580548?e=2147483647&v=beta&t=e5gJElC3yCvJHTVAqnoa80I9f2tc528sqtjyP_abZ-Y"
-                 height="50" width="50" style={{marginLeft:9,marginTop:14}}/>
+                 height="50" width="50" style={{marginLeft:9,marginTop:10}}/>
             
-            <h3>Recipes</h3>
+            <h4>Recipes</h4>
 
         </Link>
         <ul className={navClick ? "nav-menu active":"nav-menu"}>

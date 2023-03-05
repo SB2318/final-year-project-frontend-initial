@@ -76,6 +76,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * ☑️Home Page
 * ☑️Footer
 * ☑️Recipe
-* Contact
+* ☑️Contact
 * View Full Recipe
 * About
