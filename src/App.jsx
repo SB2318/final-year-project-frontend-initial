@@ -2,6 +2,7 @@ import React from 'react'
 import Home from "./routes/Home"
 import About from "./routes/About"
 import Contact from "./routes/Contact"
+import Recipes from "./routes/Recipes"
 import { Route, Routes } from 'react-router-dom'
 
 const App = () => {
@@ -12,6 +13,10 @@ const App = () => {
     <Route
       path="/"
       element={<Home/>}
+    />
+    <Route
+      path="/recipes"
+      element={<Recipes/>}
     />
     <Route
       path="/about"
