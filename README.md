@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ### Works:
 
-* Home Page
+☑️* Home Page
 * Footer
 * View Full Recipe
 * Recipe
