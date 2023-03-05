@@ -79,3 +79,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 * ☑️Contact
 * View Full Recipe
 * About
+* Search Engine Optimization
