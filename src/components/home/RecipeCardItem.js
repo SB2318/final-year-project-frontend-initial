@@ -12,7 +12,7 @@ class RecipeCardItem extends Component{
         <p>{this.props.text}</p>
       </div>
 
-      <div className='pro-btns'>
+      <div className='pro-btns' style={{left:"60%"}}>
 
         <a href={this.props.view} target="_blank" className="btn">
           View Full recipe
