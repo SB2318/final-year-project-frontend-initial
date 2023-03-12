@@ -1,7 +1,8 @@
 ### Team : Charlie's Angel
 
 
-Member: 
+**Angels:**
+
 1. 👩 Susmita Bhattacharya (Team Leader)
 2. 👩 Ahesa Limbu
 3. 👩 Urmila Bar
