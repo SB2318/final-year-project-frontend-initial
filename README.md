@@ -1,15 +1,6 @@
-### Team : Charlie's Angel
 
 
-**Angels 😇:**
-
-1. 👩 Susmita Bhattacharya (Team Leader)
-2. 👩 Ahesa Limbu
-3. 👩 Urmila Bar
-4. 👩 Kumari Pragya
-
- 
-
+# Final Year Project 
 
 ### Works:
 
@@ -18,7 +9,15 @@
 * ☑️Recipe
 * ☑️Contact
 * View Full Recipe
-* About
+* ☑️Backend Creation
+* Backend integration
 * Search Engine Optimization
 
  ### Under Development Process 
+
+FrontEnd Project Link: https://recipe-website-eta.vercel.app/
+
+FrontEnd Repository Link: https://github.com/SB2318/final-year-project-frontend
+
+Backend Repository Link: https://github.com/ahesa123/Final-Year-Project
+
