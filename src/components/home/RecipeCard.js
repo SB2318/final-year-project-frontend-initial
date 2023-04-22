@@ -1,10 +1,32 @@
-import React, { Component } from 'react'
+import React, {useState,useEffect} from 'react'
 import "../../Styles/RecipeCard.css"
 import RecipeCardItem from './RecipeCardItem'
-import RecipeCardData from './RecipeCardData'
+import RecipeCardData from './RecipeCardData';
 
-class RecipeCard extends Component{
-    render(){
+
+export default function RecipeCard(){
+
+
+        const [recipeCardData,setRecipeCardData] = useState([]);
+
+        useEffect(() => {
+           
+           getRecipeItems();
+           console.log("Value",recipeCardData);
+            return () => {
+               
+            };
+        }, []);
+
+        function getRecipeItems(){
+          
+        fetch('/recipes')
+        .then(result => result.json())
+        .then(body => {
+            setRecipeCardData(body)
+            console.log("Value",recipeCardData);
+        });
+    }
 
         return(
             <div class='main-container'>
@@ -15,14 +37,15 @@ class RecipeCard extends Component{
 
         <div className='recipe-container'>
            {
-            RecipeCardData.map((val,ind)=>{
+            recipeCardData.map((val,ind)=>{
+                
               return (
                 <RecipeCardItem
                 key={ind}
-                imgsrc={val.imgsrc}
-                title={val.title}
-                text={val.text}
-                desc= {val.description}
+                imgsrc={val.IMAGE_URL}
+                title={val.RECIPE_TITLE}
+                text={val.TIME_TAKEN}
+                desc= {val.SOURCE_URL}
             />
              )
             })
@@ -32,6 +55,3 @@ class RecipeCard extends Component{
         </div>
         )
     }
-}
-
-export default RecipeCard

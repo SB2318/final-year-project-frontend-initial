@@ -9,12 +9,12 @@ class RecipeCardItem extends Component{
       <img src={this.props.imgsrc} alt={this.props.title}/>
       <h2 className='recipe-title'>{this.props.title}</h2>
       <div className='recipe-text'>
-        <p>{this.props.text}</p>
+        <p>{`Time Required : ${this.props.text} minutes`}</p>
       </div>
 
       <div className='pro-btns' style={{left:"60%"}}>
 
-        <a href={this.props.view} target="_blank" className="btn">
+        <a href={this.props.desc} target="_blank" className="btn">
           View Full recipe
         </a>
       </div>

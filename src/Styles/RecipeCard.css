@@ -1,5 +1,5 @@
 .recipe-card{
-
+    height:500;
     background: #fff;
     padding: 1.2rem 1rem;
     align-items: center;
@@ -8,7 +8,7 @@
 
 .recipe-card img{
 
-    width:100%;
+    width:90%;
 }
 
 .recipe-title{
