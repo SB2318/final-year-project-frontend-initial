@@ -8,10 +8,11 @@
 * ☑️Footer
 * ☑️Recipe
 * ☑️Contact
-* View Full Recipe
+* ☑️View Full Recipe
 * ☑️Backend Creation
-* Backend integration
+* ☑️Backend integration
 * Search Engine Optimization
+* Live Backend
 
  ### Under Development Process 
 
