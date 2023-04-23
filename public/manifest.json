@@ -5,22 +5,27 @@
       {
         "src": "/images/recipe_book.png",
         "type": "image/png",
-        "sizes": "512x512"
+        "sizes": "512x512",
+        "purpose": "any maskable"
       },
       {
         "src": "/images/jgec_logo.jpg",
         "type": "image/jpg",
-        "sizes": "192x192"
+        "sizes": "192x192",
+        "purpose": "any maskable"
+
       },
       {
         "src": "/images/jgec_logo.jpg",
         "type": "image/jpg",
-        "sizes": "512x512"
+        "sizes": "512x512",
+        "purpose": "any maskable"
       }
     ],
-    "start_url": "/",
+    "start_url": "/index.html",
     "background_color": "#ffffff",
     "display": "standalone",
     "theme_color": "#ffffff",
-    "orientation": "portait-primary"
+    "orientation": "portait-primary",
+    "prefer_related_applications": true
   }
