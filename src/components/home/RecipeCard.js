@@ -28,9 +28,6 @@ export default function RecipeCard(){
         });
     }
 
-    if(recipeCardData.length ==0){
-        return null;
-    }else{
         return(
         <div class='main-container'>
 
@@ -57,5 +54,5 @@ export default function RecipeCard(){
 
         </div>
         )
-    }
+    
     }
