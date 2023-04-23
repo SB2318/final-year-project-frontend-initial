@@ -28,10 +28,11 @@ const Navigation = () => {
   return (
     <div className={ bgColor? "header header-bg" : "header" }>
          <Link to="/">
-           
-          <img src="https://media.licdn.com/dms/image/C510BAQE5whJbJz5oGg/company-logo_200_200/0/1585130580548?e=2147483647&v=beta&t=e5gJElC3yCvJHTVAqnoa80I9f2tc528sqtjyP_abZ-Y"
+           <h1>
+          <img src="../../images/jgec_logo.jpg"
                  height="50" width="50" style={{marginLeft:9,marginTop:10}} alt="Your"/>
             
+            </h1>
             <h4>Recipes</h4>
 
         </Link>

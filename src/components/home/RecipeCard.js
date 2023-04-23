@@ -12,7 +12,7 @@ export default function RecipeCard(){
         useEffect(() => {
            
            getRecipeItems();
-           console.log("Value",recipeCardData);
+
             return () => {
                
             };
@@ -24,16 +24,11 @@ export default function RecipeCard(){
         .then(result => result.json())
         .then(body => {
             setRecipeCardData(body)
-            console.log("Value",recipeCardData);
         });
     }
 
         return(
         <div class='main-container'>
-
-        <h1 className="recipe-heading">
-           Let's find your recipe
-        </h1>
 
         <div className='recipe-container'>
            {

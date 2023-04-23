@@ -9,7 +9,7 @@ const HomeContent = () => {
 
         <div className="mask">
 
-            <img className="into-img" src="https://i.pinimg.com/originals/f0/b6/15/f0b615f78dd809d68ec389f4bc8d94bb.jpg" width="100%"height="100%" alt="Welcome to our food website"/>
+            <img className="into-img" src="../../images/home_image.jpg" width="100%"height="100%" alt="Welcome to our food website"/>
         </div>
 
         <div className="content">
