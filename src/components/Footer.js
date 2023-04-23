@@ -18,14 +18,17 @@ const Footer = () => {
 
           <a href="https://www.linkedin.com/school/jalpaiguri-government-engineering-college/?originalSubdomain=in" target="_blank">
           <FaLinkedin size={25} style={{color: "#fff", marginRight:"1rem"}}/>
+          Linkedin
           </a>
 
           <a href="https://twitter.com/jgec_India" target="_blank">
           <FaTwitter size={25} style={{color: "#fff", marginRight:"1rem"}}/>
+          Twitter
           </a>
           
           <a href="https://github.com/SB2318/recipe-website" target="_blank">
           <FaGithub size={25} style={{color: "#fff", marginRight:"1rem"}}/>
+          Source Code
           </a>
 
           </div>
