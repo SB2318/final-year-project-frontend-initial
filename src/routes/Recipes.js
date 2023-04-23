@@ -9,7 +9,8 @@ const Recipes = ()=>{
     return(
         <div>
         <Navigation/>
-        <RecipeCard/>
+        <RecipeCard
+         isFormHome={false}/>
         <Footer/>
         </div>
     )

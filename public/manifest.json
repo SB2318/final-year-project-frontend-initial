@@ -8,21 +8,19 @@
         "sizes": "512x512"
       },
       {
-        "src": "/images/recipe_book.png",
-        "type": "image/png",
+        "src": "/images/jgec_logo.jpg",
+        "type": "image/jpg",
         "sizes": "192x192"
       },
       {
-        "src": "/images/recipe_book.png",
-        "type": "image/png",
+        "src": "/images/jgec_logo.jpg",
+        "type": "image/jpg",
         "sizes": "512x512"
       }
     ],
-    "start_url": ".",
+    "start_url": "/",
     "background_color": "#ffffff",
     "display": "standalone",
     "theme_color": "#ffffff",
-    
-    "description": "."
-    
+    "orientation": "portait-primary"
   }

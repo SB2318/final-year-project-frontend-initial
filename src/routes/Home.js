@@ -9,7 +9,8 @@ const Home = () => {
     <div>
      <Navigation/>
      <HomeContent/>
-     <RecipeCard/>
+     <RecipeCard
+      isFromHome={true}/>
      <Footer/>
     </div>
   )

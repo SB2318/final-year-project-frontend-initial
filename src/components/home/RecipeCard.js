@@ -4,10 +4,11 @@ import RecipeCardItem from './RecipeCardItem'
 import RecipeCardData from './RecipeCardData';
 
 
-export default function RecipeCard(){
+const RecipeCard = (props)=>{
 
 
         const [recipeCardData,setRecipeCardData] = useState([]);
+        var resultData=[];
 
         useEffect(() => {
            
@@ -23,7 +24,18 @@ export default function RecipeCard(){
         fetch('/recipes')
         .then(result => result.json())
         .then(body => {
+
+            var homeData= body;
+            if(props.isFromHome === true){
+              
+                for(var i=homeData.length-1; i>=homeData.length-6;i--){
+                   resultData.push(homeData[i]);
+                }
+
+                setRecipeCardData(resultData);
+            }else{
             setRecipeCardData(body)
+            }
         });
     }
 
@@ -51,3 +63,5 @@ export default function RecipeCard(){
         )
     
     }
+
+    export default RecipeCard;

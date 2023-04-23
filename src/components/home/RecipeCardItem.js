@@ -7,7 +7,7 @@ class RecipeCardItem extends Component{
         return(
       <div className='recipe-card'>
       <h1>
-      <img src={this.props.imgsrc} alt={this.props.title}/>
+      <img src={this.props.imgsrc} alt={this.props.title} width="100%"/>
       </h1>
       <h2 className='recipe-title'>{this.props.title}</h2>
       <div className='recipe-text'>

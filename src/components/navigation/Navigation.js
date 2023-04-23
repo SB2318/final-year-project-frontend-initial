@@ -28,12 +28,11 @@ const Navigation = () => {
   return (
     <div className={ bgColor? "header header-bg" : "header" }>
          <Link to="/">
-           <h1>
+           
           <img src="../../images/jgec_logo.jpg"
-                 height="50" width="50" style={{marginLeft:9,marginTop:10}} alt="Your"/>
+                 height="50" width="50" style={{marginLeft:3,marginTop:10}} alt="Your"/>
             
-            </h1>
-            <h4>Recipes</h4>
+            <p>Recipes</p>
 
         </Link>
         <ul className={navClick ? "nav-menu active":"nav-menu"}>
