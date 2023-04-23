@@ -5,7 +5,7 @@ import RecipeCard from "../components/home/RecipeCard"
 import Footer from "../components/Footer"
 
 const Recipes = ()=>{
-
+  
     return(
         <div>
         <Navigation/>

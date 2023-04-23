@@ -28,8 +28,11 @@ export default function RecipeCard(){
         });
     }
 
+    if(recipeCardData.length ==0){
+        return null;
+    }else{
         return(
-            <div class='main-container'>
+        <div class='main-container'>
 
         <h1 className="recipe-heading">
            Let's find your recipe
@@ -54,4 +57,5 @@ export default function RecipeCard(){
 
         </div>
         )
+    }
     }
