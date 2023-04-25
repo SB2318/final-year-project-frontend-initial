@@ -11,10 +11,8 @@
 * ☑️View Full Recipe
 * ☑️Backend Creation
 * ☑️Backend integration
-* Search Engine Optimization
-* Live Backend
+* ⚠️Search Engine Optimization
 
- ### Under Development Process 
 
 FrontEnd Project Link: https://recipe-website-eta.vercel.app/
 
