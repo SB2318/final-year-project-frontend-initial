@@ -18,5 +18,5 @@ FrontEnd Project Link: https://recipe-website-eta.vercel.app/
 
 FrontEnd Repository Link: https://github.com/SB2318/final-year-project-frontend
 
-Backend Repository Link: https://github.com/ahesa123/Final-Year-Project
+Backend Repository Link: https://github.com/SB2318/Final-Year-Project    (Master Branch)
 
