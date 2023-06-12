@@ -14,7 +14,7 @@
 * ☑️Search Engine Optimization
 
 
-FrontEnd Project Link: https://recipe-website-eta.vercel.app/
+Website Link: https://recipe-website-eta.vercel.app/
 
 FrontEnd Repository Link: https://github.com/SB2318/final-year-project-frontend
 
